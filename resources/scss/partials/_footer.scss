@@ -1,0 +1,39 @@
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+.categories-container{
+    background-color: #0282f9;
+    color: white;
+
+    .icons{
+        width: 50px;
+    }
+
+    .categories{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+.links{
+    color: white;
+
+    .link-list{
+        color: gray;
+        padding-left: 0;
+        
+        .title{
+            font-weight: bold;
+            color: white;
+        }
+    }
+}
+
+.copyright{
+    color: white;
+}
+

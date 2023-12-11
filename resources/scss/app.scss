@@ -1,2 +1,13 @@
 @import '~bootstrap/scss/bootstrap';
 @import './partials/header';
+@import './partials/_footer.scss';
+main{
+    background-color: #1c1c1c;
+    color: white;
+
+    .comics-img{
+        width: 180px;
+        aspect-ratio: 1;
+    }
+}
+

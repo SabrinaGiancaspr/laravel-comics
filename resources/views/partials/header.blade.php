@@ -1,5 +1,4 @@
 <header class="header" style="background-image: url({{Vite::asset('resources/img/jumbotron.jpg')}})">
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt=""></a>
@@ -12,7 +11,7 @@
                 <a class="nav-link active" aria-current="page" href="#">CHARACTERS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">COMICS</a>
+                <a class="nav-link" href="{{route('comics')}}">COMICS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">MOVIES</a>
