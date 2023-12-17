@@ -5,9 +5,17 @@ main{
     background-color: #1c1c1c;
     color: white;
 
+    .container{
+       padding-top: 40px;
+       padding-bottom: 10px;
+    }
     .comics-img{
         width: 180px;
         aspect-ratio: 1;
     }
+    .col-2{
+        margin-bottom: 20px;
+    }
+
 }
 

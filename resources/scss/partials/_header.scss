@@ -1,5 +1,31 @@
+
+.blue-side{
+    // width: 100%;
+    background-color: #0282f9;
+    color: white;
+    .font-container{
+        margin-right: 170px;
+        align-items: center;
+    }
+    .position{
+        position: relative;
+    }
+    .font-sm{
+        font-size: 7px;
+        position: absolute;
+        top: 5px;
+    }
+    .visa{
+        padding-left: 17px;
+
+        .icon{
+            font-size: 13px;
+        }
+    }
+}
 header{
     padding-bottom: 400px;
+    font-weight: bold;
     
     .navbar{
         background-color: white;
@@ -8,6 +34,28 @@ header{
             display: flex;
             align-items: center;
         }
+        
+        .logo{
+            margin-left: 200px;
+        }
+        .input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom-color: blue;
+            
+        }
+        .input::placeholder {
+            text-align: right;
+            color: black;
+            position: relative;
+            margin-right: 25px;
+        }
+        .lente{
+            position: absolute;
+            right: 5px;
+        }
+
         
     }
 }
